@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/testimonials",
+      "path": "/testimonial",
       "handler": "testimonial.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/testimonials/:id",
+      "path": "/testimonial/:id",
       "handler": "testimonial.findOne",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "POST",
-      "path": "/testimonials",
+      "path": "/testimonial",
       "handler": "testimonial.create",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "PUT",
-      "path": "/testimonials/:id",
+      "path": "/testimonial/:id",
       "handler": "testimonial.update",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/testimonials/:id",
+      "path": "/testimonial/:id",
       "handler": "testimonial.delete",
       "config": {
         "policies": []

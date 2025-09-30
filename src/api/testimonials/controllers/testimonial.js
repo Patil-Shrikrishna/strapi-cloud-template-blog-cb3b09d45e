@@ -2,8 +2,8 @@
 
 module.exports = {
   async find(ctx) {
-    const testimonials = await strapi.services.testimonial.find(ctx.query);
-    return testimonials;
+    const testimonial = await strapi.services.testimonial.find(ctx.query);
+    return testimonial;
   },
 
   async findOne(ctx) {
